@@ -34,12 +34,12 @@ namespace sharp_matrix
             SetUp(rows, columns);
             this.data = values;
         }
-        public Matrix2d RandUniform()
+        public Matrix2d Randn()
         {
             this.data = Enumerable.Range(0, (Rows() * Columns())).Select(n => g.RandomGauss()).ToList();
             return this;
         }
-        public Matrix2d Randn()
+        public Matrix2d Random()
         {
             this.data = Enumerable.Range(0, (Rows() * Columns())).Select(n => rand.NextDouble()).ToList();
             return this;
