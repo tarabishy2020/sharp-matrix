@@ -4,7 +4,7 @@ Used in a lecture for a deep dive into machine learning matrix operations.
 
 Structure is inspired from this repo https://github.com/rwl/ParallelColt and from here as well https://github.com/CodingTrain/Toy-Neural-Network-JS/blob/master/lib/matrix.js
 
-The implementation uses a List of doubles to store the data. 
+The implementation uses a 1D List of doubles to store the data. 
 
 ## Features
 - Indexer to get and set matrix cells.
